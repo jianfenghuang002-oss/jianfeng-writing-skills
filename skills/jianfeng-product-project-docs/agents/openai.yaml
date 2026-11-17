@@ -1,0 +1,13 @@
+interface:
+  display_name: 剑锋的产品与项目文档
+  short_description: 编写产品需求、功能说明、技术方案、项目介绍、操作指南和交接文档，核对权限与验收条件。
+  default_prompt: 用 $jianfeng-product-project-docs 把这份材料整理成可评审的产品需求文档。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

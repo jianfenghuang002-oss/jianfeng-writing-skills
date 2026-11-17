@@ -1,0 +1,13 @@
+interface:
+  display_name: 剑锋的求职与申请材料
+  short_description: 起草和润色简历、求职信、面试陈述及申请材料，核对事实、个人贡献和接收方要求。
+  default_prompt: 用 $jianfeng-job-application-writing 根据我提供的经历和岗位要求写一段简历项目经历。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: 剑锋的科研与论文写作
+  short_description: 起草和审阅选题、开题报告、科研论文及投稿材料，核对模型、数据、证据和排版规范。
+  default_prompt: 用 $jianfeng-research-writing 检查这份研究设计的问题、方法、证据和结论是否对应。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

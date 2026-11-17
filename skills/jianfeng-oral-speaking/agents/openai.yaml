@@ -1,0 +1,13 @@
+interface:
+  display_name: 剑锋的演讲与口头汇报
+  short_description: 起草和润色演讲稿、PPT讲稿、文献汇报及答辩稿，核对数据、个人贡献与试讲时长。
+  default_prompt: 用 $jianfeng-oral-speaking 把这份材料改成一篇可以直接试讲的答辩稿。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
